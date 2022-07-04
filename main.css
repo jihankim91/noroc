@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    min-width: 1400px;
+}
+
+/*top*/
+
+#top_inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+#top_inner ul li{
+    float: left;
+    padding-left: 70px;
+}
+#top_inner ul li a{
+    font-weight: 500;
+}
+#top_inner ul{
+    float: right;
+    padding-top: 41px;
+}
+#top_inner a img{
+    padding-top: 28px;
+}
+#top::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*header*/
+
+#header{
+    margin-top: 28px;
+}
+#header img{
+    width: 100%;
+}
+
+/*Driver*/
+
+#driver_inner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+}
+#driver_inner h2{
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+#driver_inner ul li{
+    float: left;
+    padding-right: 100px;
+    text-align: center;
+}
+#driver_inner ul li:nth-child(3){
+    padding-right: 0;
+}
+#driver_inner ul li p{
+    font-size: 25px;
+    padding-top: 45px;
+}
+
+
+#driver_inner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*tour*/
+
+#tour_inner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+#tour_inner h2{
+    font-size: 30px;
+    margin-top: 180px;
+    margin-bottom: 110px;
+}
+#tour_inner iframe{
+    width: 1100px;
+    height: 630px;
+}
+
+/*ball*/
+
+#ball img{
+    width: 100%;
+    padding-top: 180px;
+}
+
+/*swiper*/
+
+#best{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.mb .swiper-slide img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.mb{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mb_po{
+    position: relative;
+    width: 1320px;
+    margin: 0 auto;
+}
+/*화살표 색상 변경하기, 화살표색상은 color속성으로 변경해야합니다.
+변경대상은 swiper-button-next, swiper-button-prev 입니다.*/
+.mb_po .swiper-button-next,
+.mb_po .swiper-button-prev{
+    color: #333;
+}
+/*불릿 색상 바꾸기. 동그라미의 색상은 특정 클래스가 제이쿼리에 의해 생성되어 그 클래스에
+background-color로 지정되어 있으므로, 클래스 이름을 알아야한다.
+여기서 특정 클래스는, swiper-pagination-bullet*/
+.mb .swiper-pagination-bullet{
+    background-color: #333;
+}
+
+/*ap*/
+
+#ap_inner{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#ap_inner h2{
+    font-size: 30px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+#ap_inner ul li{
+    float: left;
+    width: 33%;
+}
+#ap_inner ul li p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 45px;
+}
+#ap_inner p.button{
+    clear: both;
+    padding-top: 110px;
+}
+#ap_inner p a{
+    border: 1px solid #333;
+    padding: 29px 178px;
+}
+#ap_inner p a:hover{
+    color:#fff;
+    background-color: rgb(85, 141, 78);
+}
+
+
+/*ev*/
+
+#ev_inner{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#ev_inner h2{
+    font-size: 30px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+}
+#ev_inner ul li{
+    float: left;
+    width: 50%;
+}
+#ev_inner p.button{
+    clear: both;
+    padding-top: 110px;
+    padding-bottom: 200px;
+}
+#ev_inner p a{
+    border: 1px solid #333;
+    padding: 29px 178px;
+}
+#ev_inner p a:hover{
+    color:#fff;
+    background-color: rgb(85, 141, 78);
+}
+
+/*footer*/
+
+#footer{
+    background-color: #eee;
+}
+#footer_inner{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+#footer_inner ul{
+    float: left;
+    padding-right: 70px;
+}
+#footer_inner ul li{
+    padding: 5px 0;
+}
+#footer_inner ul li.bold{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+#footer_inner::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#footer_inner p{
+    clear: both;
+    padding-top: 50px;
+    line-height: 26px;
+    font-size: 15px;
+}
+#footer_inner div.icon{
+    float: right;
+    background-color: #333;
+    padding: 5px 5px 0 5px;
+}
+#footer_inner div.icon img{
+    padding-right: 10px;
+}
+#footer_inner div.icon a img:nth-child(1){
+    padding-left: 10px;
+}
